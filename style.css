@@ -124,6 +124,35 @@ form {
   padding: 25px 0;
 }
 
+input {
+  width: 90%;
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+  display: block;
+  font-size: 1.15rem;
+  border: 1px inset rgb(102, 205, 170);
+  border-radius: 7px;
+}
+
+input:focus {
+  outline: 2px inset rgb(102, 205, 170);
+}
+
+button[type="submit"] {
+  margin-top: 16px;
+  padding: 4px;
+  font-size: 1.15rem;
+  border-radius: 7px;
+  border: 2px inset rgb(102, 205, 170);
+  cursor: pointer;
+}
+
+button[type="submit"]:active {
+  background-color: rgb(102, 205, 170);
+  transform: translateY(4px);
+}
+
 .footer {
   background-color: rgb(230, 230, 230);
   width: 100%;
