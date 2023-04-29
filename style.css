@@ -106,7 +106,7 @@ form {
   width: 100%;
   margin-top: 12px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(415px, 410px));
+  grid-template-columns: repeat(auto-fit, minmax(410px, 415px));
   grid-template-rows: auto;
   gap: 15px 10px;
   padding: 20px 0;
@@ -178,33 +178,18 @@ button[type="submit"]:active {
 }
 
 @media (min-width: 475px) {
-  .members img {
-    max-width: 400px;
-    height: 220px;
-  }
-
   .footer {
     max-width: 475px;
   }
 }
 
 @media (min-width: 640px) {
-  .members img {
-    max-width: 640px;
-    height: 220px;
-  }
-
   .footer {
     max-width: 640px;
   }
 }
 
 @media (min-width: 768px) {
-  .members img {
-    max-width: 768px;
-    height: 220px;
-  }
-
   .footer {
     max-width: 768px;
   }
