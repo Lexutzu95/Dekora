@@ -96,7 +96,7 @@ form {
 
 .team-members {
   min-width: fit-content;
-  padding: 8px;
+  padding: 6px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
 }
@@ -107,7 +107,7 @@ form {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 410px));
   grid-template-rows: auto;
-  gap: 15px 10px;
+  gap: 15px 8px;
   padding: 20px 0;
 }
 
@@ -176,6 +176,7 @@ button[type="submit"]:active {
   color: rgb(100, 100, 100);
 }
 
+/*
 @media (min-width: 475px) {
   .footer {
     max-width: 475px;
@@ -210,3 +211,4 @@ button[type="submit"]:active {
     max-width: 1536px;
   }
 }
+*/
