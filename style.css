@@ -77,14 +77,13 @@ form {
   height: auto;
   margin-top: 12px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(580px, 620px));
+  grid-template-columns: repeat(auto-fit, minmax(580px, 600px));
   grid-template-rows: auto;
-  gap: 15px 25px;
+  gap: 15px 20px;
 }
 
 .showcase-images img {
-  max-width: 100%;
-  width: 620px;
+  width: 600px;
   height: 400px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
@@ -106,7 +105,7 @@ form {
   width: 100%;
   margin-top: 12px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(410px, 415px));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 410px));
   grid-template-rows: auto;
   gap: 15px 10px;
   padding: 20px 0;
