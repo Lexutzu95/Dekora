@@ -1,0 +1,3 @@
+-Dekora
+-Did you buy your dream house and now are you're looking to customize and decorate it just the way you love it? Please take a look at the examples of interior design that our team offers and feel free to contact us for more details and also come with your own ideas :)
+-Technologies used: HTML, CSS and Javascript
